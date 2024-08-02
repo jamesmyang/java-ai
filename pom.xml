@@ -5,19 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.atucity.ai</groupId>
-    <artifactId>com.atucity.ai.math</artifactId>
+    <artifactId>com.atucity.ai.java-ai</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-    <parent>
-        <groupId>com.atucity.ai</groupId>
-        <artifactId>com.atucity.ai.java-ai</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
-
-    <properties>
-        <maven.compiler.source>18</maven.compiler.source>
-        <maven.compiler.target>18</maven.compiler.target>
-    </properties>
-
+    <modules>
+        <module>math</module>
+        <module>neural-networks</module>
+        <module>keras</module>
+        <module>random-forest</module>
+        <module>linear-regression</module>
+        <module>xgboost</module>
+    </modules>
 
 </project>

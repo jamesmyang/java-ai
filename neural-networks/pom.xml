@@ -8,6 +8,12 @@
     <artifactId>com.atucity.ai.neural-networks</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <parent>
+        <groupId>com.atucity.ai</groupId>
+        <artifactId>com.atucity.ai.java-ai</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>

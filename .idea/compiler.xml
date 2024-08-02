@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com.atucity.ai.neural-networks" />
+        <module name="com.atucity.ai.random-forest" />
+        <module name="com.atucity.ai.linear-regression" />
+        <module name="com.atucity.ai.keras" />
+        <module name="com.atucity.ai.math" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.atucity.ai.XGBoost" target="18" />
+      <module name="keras" target="18" />
+      <module name="untitled" target="18" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
