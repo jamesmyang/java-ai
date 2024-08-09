@@ -16,6 +16,7 @@
         <module>random-forest</module>
         <module>linear-regression</module>
         <module>xgboost</module>
+        <module>common</module>
     </modules>
 
 </project>

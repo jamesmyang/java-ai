@@ -1,7 +1,8 @@
-package com.atucity.ai.keras.layers;
+package com.atucity.ai.keras.layers.core;
 
 import com.atucity.ai.keras.activations.Activation;
 import com.atucity.ai.keras.activations.Activations;
+import com.atucity.ai.keras.layers.Layer;
 
 public class Dense extends Layer {
 
@@ -9,9 +10,13 @@ public class Dense extends Layer {
 
     protected Activation activation;
 
-    public Dense(int units, String activation) {
+    protected boolean useBias;
+
+    public Dense(int units, String activation, boolean useBias) {
         this.units = units;
         this.activation = Activations.get(activation);
+
+        this.useBias = useBias;
 
 
 
